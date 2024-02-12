@@ -1,0 +1,180 @@
+* {
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+
+
+/* BENEFITS SECTION*/
+
+.benefits-section {
+    background: #1E1823;
+    display: flex;
+    width: 1200px;
+    height: 344px;
+    padding: 50px;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+   
+    }
+
+.benefits {
+
+    display: flex;
+    width: 1100px;
+    height: 244px;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 70px;
+    flex-shrink: 0;
+    margin: 50px;
+   position:relative;
+   
+
+}
+
+.title-benefits-section {
+
+    color: #FFF;
+
+    font-family: Montserrat;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-bottom: 18px;
+
+}
+
+.title-p-line {
+    display:flex;
+    gap:18px;
+}
+
+.icons {
+
+
+        display: flex;
+        width: 62px;
+        height: 62px;
+        justify-content: center;
+        align-items: center;
+        gap: 7.303px;
+        flex-shrink: 0;
+        border-radius: 365px;
+        border: 1px solid rgba(255, 255, 255, 0.50);
+        margin-bottom:22px;
+
+
+}
+
+
+.icon-benefits {
+
+
+        width: 32px;
+        height: 32px;
+        flex-shrink: 0;
+
+}
+
+svg {
+    width:32px;
+    height:32px;
+}
+
+
+.paragraph-benefits-section {
+    color: rgba(255, 255, 255, 0.70);
+
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.28px;
+
+    
+}
+
+.first-p,
+.second-p {
+    margin-right:18px;
+}
+
+.header-container {
+    border: 3px solid black;
+}
+
+
+
+.first-p,
+.second-p,
+.last-p {
+    width: 308px;
+   
+}
+
+.second-p {
+   
+    height: 119px;
+}
+
+.last-p {
+   
+    height: 85px;
+}
+
+.line {
+    width: 1px;
+    height: 124px;
+    background: rgba(255, 255, 255, 0.50);
+    align-self: center;
+    position: absolute;
+    top:50%;
+    left:30%;
+    transform:translate(-50%, -50%);
+ 
+   
+}
+
+.line-one {
+
+    width: 1px;
+    height: 124px;
+    background: rgba(255, 255, 255, 0.50);
+    align-self: center;
+    position: absolute;
+    top:50%;
+    left:30%;
+    transform:translate(-50%, -50%);
+
+
+
+}
+
+
+.line-two {
+
+    width: 1px;
+    height: 124px;
+    background: rgba(255, 255, 255, 0.50);
+    align-self: center;
+    position: absolute;
+    top:50%;
+    left:65%;
+    transform:translate(-50%, -50%);
+
+}
+
+
+
+
+
+
+
+
+
+
